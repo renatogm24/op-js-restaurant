@@ -1,0 +1,25 @@
+{
+  "name": "op-js-restaurant",
+  "version": "1.0.0",
+  "description": "Project of The Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatogm24/op-js-restaurant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatogm24/op-js-restaurant/issues"
+  },
+  "homepage": "https://github.com/renatogm24/op-js-restaurant#readme",
+  "devDependencies": {
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
