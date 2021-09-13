@@ -284,7 +284,7 @@ function functionCombos() {
 
     navOptions.appendChild(navOptionsTitle);
     navOptions.appendChild(breakDiv);
-    for (let index = 0; index < 4; index++) {
+    for (let index = 0; index < 7; index++) {
         navOptions.appendChild(createElement("menu2","Jesse Pinkman Combo","4 fried chicken pieces + 1 boxes of french fries","12.90"));     
     }    
     addFunctionCount();
@@ -304,8 +304,8 @@ function functionBeverage() {
 
     navOptions.appendChild(navOptionsTitle);
     navOptions.appendChild(breakDiv);
-    for (let index = 0; index < 3; index++) {
-        navOptions.appendChild(createElement("menu3","Gus Fring Drink","Tequila, Blue Curaçao, Sweet & Sour y Cointreau","8.90"));     
+    for (let index = 0; index < 8; index++) {
+        navOptions.appendChild(createElement("menu3","Gus Fring Drink","Tequila, Blue Curacao, Sweet & Sour y Cointreau","8.90"));     
     }    
     addFunctionCount();
 }
