@@ -1,0 +1,448 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav-menu {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom: 1px solid rgba(230, 235, 241, 1);
+    height: 70px;
+    align-items: center;
+}
+
+.bars {
+    margin-left: 15px;
+}
+
+.logo {
+    margin-left: 15px;
+}
+
+.logo img {
+    width: 70px;
+    height: 30px;
+}
+
+.shopping-cart {
+    display: flex;
+    margin: 0px 30px 0px auto;
+    padding: 2px 4px 2px 4px;
+    background-color: #E6EBF1;
+    border-radius: 8px;
+    height: fit-content;
+    align-items: center;
+}
+
+.cart-logo {
+    margin: 3px 6px 3px 10px;
+}
+
+.cart-elements {
+    margin: 3px 10px 3px 6px;
+    font-size: 14px;
+}
+
+.nav-address {
+    margin-top: 70px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    border-bottom: 1px solid rgba(230, 235, 241, 1);
+    font-weight: 500;
+}
+
+.nav-address a {
+    text-decoration: none;
+    color: #FF441F;
+    font-weight: bold;
+}
+
+.nav-restaurant {
+    margin-top: 115px;
+    display: flex;
+    height: 100px;
+    border-bottom: 1px solid rgba(230, 235, 241, 1);
+    background-color: #F7F8F9;
+}
+
+.restaurant-logo img {
+    height: 100%;
+    margin-left: 3px;
+    width: auto;
+}
+
+.restaurant-logo {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 10px 15px 0px 15px;
+}
+
+.restaurant-info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.restaurant-title {
+    display: flex;
+    align-items: baseline;
+}
+
+.restaurant-name {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.restaurant-stars {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgba(230, 235, 241, 1);
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 3px 10px 3px 10px;
+    margin: 0px 12px 0px auto;
+}
+
+.restaurant-stars span {
+    margin-right: 5px;
+}
+
+.material-icons.md-14 {
+    font-size: 14px;
+}
+
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.yellow {
+    color: #FFAE00;
+}
+
+.material-icons.green {
+    color: #29D884;
+}
+
+.restaurant-info1 {
+    margin-top: 10px;
+}
+
+.restaurant-info2 {
+    display: flex;
+}
+
+.restaurant-address {
+    margin-top: 10px;
+}
+
+.restaurant-discount {
+    margin-top: 10px;
+    background-color: #FF441F;
+    width: fit-content;
+    color: white;
+    border-radius: 5px;
+    padding: 2px 7px 2px 7px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.shipment {
+    display: flex;
+    height: 45px;
+}
+
+.shipment-cost {
+    width: 50%;
+    border: 1px solid rgba(230, 235, 241, 1);
+    padding: 10px 0px 0px 10px;
+}
+
+.shipment-time {
+    width: 50%;
+    text-align: right;
+    border: 1px solid rgba(230, 235, 241, 1);
+    border-radius: 3px;
+    padding: 10px 10px 0px 0px;
+}
+
+.navmenu {
+    position: sticky;
+    top: 115px;
+    background-color: white;
+    display: flex;
+    height: 45px;
+    border-bottom: 1px solid rgba(230, 235, 241, 1);
+    align-items: center;
+    padding-left: 20px;
+}
+
+.base-menu-logo {
+    display: flex;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.base-menu-logo span {
+    display: flex;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.menu-options {
+    display: flex;
+}
+
+.option {
+    margin: 0px 5px 0px 5px;
+    padding: 3px 7px 3px 7px;
+    border: 1px solid rgba(230, 235, 241, 1);
+    border-radius: 8px;
+}
+
+.selected {
+    margin: 0px 5px 0px 5px;
+    padding: 3px 7px 3px 7px;
+    border: 1px solid #80D9A8;
+    color: #80D9A8;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #E9FCF2;
+}
+
+.nav-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-options-title {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(230, 235, 241, 1);
+}
+
+.element {
+    display: flex;
+    border-bottom: 1px solid rgba(230, 235, 241, 1);
+    padding: 15px 15px 10px 15px;
+}
+
+.element-img img {
+    width: 104px;
+    height: 104px;
+    border-radius: 10px;
+}
+
+.element-img {
+    margin-right: 15px;
+}
+
+.element-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.elemente-title {
+    font-size: 16px;
+}
+
+.element-description {
+    font-size: 14px;
+}
+
+.element-price {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.element-add {
+    margin: 0px 12px 0px auto;
+}
+
+@media screen and (min-width: 870px) {
+    .nav-restaurant {
+        height: 150px;
+    }
+    .restaurant-logo img {
+        margin-left: 9px;
+    }
+    .restaurant-logo {
+        width: 80px;
+        height: 80px;
+        margin: 10px 30px 0px 30px;
+    }
+    .restaurant-name {
+        font-size: 24px;
+    }
+    .restaurant-stars {
+        margin: 0px 0px 0px 30px;
+    }
+    .restaurant-discount {
+        margin-top: 7px;
+        margin-left: 20px;
+    }
+    /*-------------------*/
+    /*-------------------*/
+    .menu {
+        display: grid;
+        grid-template-columns: 250px auto;
+        grid-template-rows: 50px auto;
+        grid-template-areas: "menu shipment" "menu content";
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    .shipment {
+        grid-area: 1/2/2/3;
+        display: flex;
+        height: 45px;
+    }
+    .shipment-cost {
+        width: 50%;
+        border: 1px solid rgba(230, 235, 241, 1);
+        padding: 10px 0px 0px 10px;
+        border-radius: 0px;
+    }
+    .shipment-time {
+        width: 50%;
+        text-align: right;
+        border: 1px solid rgba(230, 235, 241, 1);
+        border-radius: 0px;
+        padding: 10px 10px 0px 0px;
+    }
+    .navmenu {
+        position: static;
+        grid-area: menu;
+        border-right: 1px solid rgba(230, 235, 241, 1);
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: stretch;
+        padding-left: 0px;
+        top: 0px;
+    }
+    .base-menu-logo {
+        height: 44px;
+        padding-left: 30px;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        margin-right: 0px;
+        width: 250px;
+        border-bottom: 1px solid rgba(230, 235, 241, 1);
+    }
+    .menu-options {
+        padding-top: 15px;
+        padding-left: 30px;
+        border-top: 1px solid rgba(230, 235, 241, 1);
+        display: flex;
+        flex-direction: column;
+    }
+    .base-menu-logo span {
+        display: flex;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    .option {
+        margin: 0px 0px 0px 0px;
+        padding: 3px 7px 3px 7px;
+        border: none;
+        border-radius: 0px;
+    }
+    .selected {
+        margin: 0px 0px 0px 0px;
+        padding: 3px 7px 3px 7px;
+        border: 1px solid #80D9A8;
+        color: #80D9A8;
+        font-weight: bold;
+        border-radius: 8px;
+        background-color: #E9FCF2;
+    }
+    .nav-options {
+        grid-area: 2/2/3/3;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .nav-options-title {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        font-size: 26px;
+        font-weight: bold;
+        border-bottom: none;
+    }
+    .break {
+        flex-basis: 100%;
+        height: 0;
+    }
+    .element {
+        flex-basis: 40%;
+        display: flex;
+        border: 1px solid rgba(230, 235, 241, 1);
+        border-radius: 7px;
+        padding: 15px 15px 10px 15px;
+        margin: 15px 15px 10px 15px;
+        width: 250px;
+    }
+    .element-img img {
+        width: 104px;
+        border-radius: 10px;
+    }
+    .element-img {
+        margin-right: 15px;
+    }
+    .element-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .elemente-title {
+        font-size: 16px;
+    }
+    .element-description {
+        font-size: 14px;
+    }
+    .element-price {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .element-add {
+        margin: 0px 12px 0px auto;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .restaurant-info1 {
+        display: none;
+    }
+    .restaurant-address {
+        display: none;
+    }
+}
